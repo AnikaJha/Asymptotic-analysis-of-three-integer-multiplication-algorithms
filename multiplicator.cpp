@@ -52,7 +52,8 @@ Number GrSchMult::multiply(const Number &n1, const Number &n2)
             res0 = std::to_string(k) + res0;
 
         res0 = res0 + std::string(i1, '0'); // shifting by adding zeroes in the end
-        answer = answer + res0; // addition of two big-hw2020-1-AnikaDzhkha
+        answer = answer + res0; // addition of two Numbers
+       
         i1++;
     }
 
