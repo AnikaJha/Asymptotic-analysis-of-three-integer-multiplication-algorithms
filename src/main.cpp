@@ -13,7 +13,6 @@ void out(size_t start, size_t end, size_t step, std::ofstream& ofstr)
     {
         Multiplicator::testMethod(i, ofstr);
     }
-
 }
 
 int main()
